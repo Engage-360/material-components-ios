@@ -40,6 +40,8 @@ static UIRectCorner _roundedCornersDefault = UIRectCornerAllCorners;
 @property(nonatomic, strong) NSLayoutConstraint *placeholderCenterY;
 @property(nonatomic, strong) NSLayoutConstraint *placeholderLeading;
 
+
+@property(nonatomic, assign) CGFloat roundedCornerRadius;
 @end
 
 @implementation MDCTextInputControllerOutlined
